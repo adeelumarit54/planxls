@@ -7,7 +7,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>PlanXLS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="PlanXLS"/>
+  <DisplayName DefaultValue="PlanXLS-excel-addin"/>
   <Description DefaultValue="Write your own Excel functions in JavaScript."/>
   <IconUrl DefaultValue="https://adeelumarit54.github.io/planxls/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://adeelumarit54.github.io/planxls/assets/icon-64.png"/>
