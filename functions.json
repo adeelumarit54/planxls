@@ -2,9 +2,9 @@
     "allowCustomDataForDataTypeAny": true,
     "functions": [
         {
-            "description": "Return just the numeric Value field for given filters",
-            "id": "VALUEXLS",
-            "name": "VALUEXLS",
+            "description": "Return the SUM of the numeric Value field for given filters",
+            "id": "VALUE",
+            "name": "VALUE",
             "parameters": [
                 {
                     "name": "Scenario",
@@ -35,7 +35,48 @@
                     "type": "string"
                 }
             ],
-            "result": {}
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Return all matching rows as a 2D array for Excel",
+            "id": "GETXLS",
+            "name": "GETXLS",
+            "parameters": [
+                {
+                    "name": "Scenario",
+                    "type": "string"
+                },
+                {
+                    "name": "Period",
+                    "type": "string"
+                },
+                {
+                    "name": "Entity",
+                    "type": "string"
+                },
+                {
+                    "name": "Account",
+                    "type": "string"
+                },
+                {
+                    "name": "Department",
+                    "type": "string"
+                },
+                {
+                    "name": "Currency",
+                    "type": "string"
+                },
+                {
+                    "name": "Subline",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
         }
     ]
 }
