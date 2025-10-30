@@ -8,30 +8,37 @@
             "parameters": [
                 {
                     "name": "Scenario",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Period",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Entity",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Account",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Department",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Currency",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "name": "Subline",
+                    "optional": true,
                     "type": "string"
                 }
             ],
